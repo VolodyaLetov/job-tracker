@@ -26,14 +26,6 @@ CSS
 ESLint – code linting
 
 📂 Project Structure
-src/
- ├── components/
- │     ├── JobCard.jsx
- │     ├── JobForm.jsx
- │     └── JobList.jsx
- ├── App.jsx
- └── main.jsx
-
 The project follows a modular structure to keep the code scalable and maintainable.
 
 ⚙️ Installation & Setup
