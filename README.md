@@ -28,23 +28,10 @@ ESLint – code linting
 📂 Project Structure
 The project follows a modular structure to keep the code scalable and maintainable.
 
-⚙️ Installation & Setup
+⚙️ Running the project
 
-Clone the repository:
+job-tracker-brown.vercel.app
 
-git clone git@github.com:VolodyaLetov/job-tracker.git
-
-Navigate to the project folder:
-
-cd job-tracker
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm run dev
 
 🎯 Learning Goals
 
