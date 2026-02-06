@@ -9,8 +9,6 @@ export default function App() {
   const [jobs, setJobs] = useState([]);
   const [query, setQuery] = useState("");
   const [statusFilter, setStatusFilter] = useState("all");
-
-  // ✅ грузим только 1 раз
   useEffect(() => {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return;
@@ -21,8 +19,6 @@ export default function App() {
       // ignore
     }
   }, []);
-
-  // ✅ сохраняем при изменении jobs (НЕ трогаем jobs внутри эффекта)
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(jobs));
   }, [jobs]);
