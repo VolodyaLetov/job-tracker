@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import JobForm from "./components/JobForm";
 import JobList from "./components/JobList";
-import "./app.css";
+import "./App.css";
 
 const STORAGE_KEY = "job-tracker.jobs.v1";
 
